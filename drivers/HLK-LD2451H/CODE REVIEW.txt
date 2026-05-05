@@ -1,0 +1,6 @@
+// Full final sketch (patched): ATMEGA + HLK-LD2451 multi-target parser + tracker + 7-seg display
+// Changes: improved timeout logic and lastDataMillis updates to avoid bogus LED turn-off
+// and ensure responsiveness/accuracy after "speed turnoff" logic.
+// Able to configure settings through terminal
+//EEPROM SAVINGS
+//LED DISPLAY CODE 

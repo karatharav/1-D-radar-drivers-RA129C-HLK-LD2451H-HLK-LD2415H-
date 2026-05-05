@@ -1,0 +1,43 @@
+these the error logs generated when there is a error in the sent commands
+1."Bad format: missing '_'"
+2."Bad format: no code before '_'"
+3."Bad format: no digits after '_'"
+4."Bad format: non-digit in numeric part"
+5."Bad format: numeric too long (>3 digits)"
+
+6."speed_limit out of range (0..199)"
+7."speed_threshold out of range (0..199)"
+8."installation_angle out of range (0..45)"
+9."sensitivity out of range (1..15)"
+10."detection_direction out of range (0..2)"
+11."sample_freq out of range (0..1)"
+12."speed_unit out of range (0..1)"
+13."Unknown code: "
+
+
+
+/******************************************************************************
+ * @file           : Single_lane_speed_sign_sourcecode.ino
+ * @brief          : Controls a 7-segment LED display and interfaces with the 
+ * radar sensor to receive multi-target data, 
+ * process it using detection algorithms, and display 
+ * optimized speed value in real-time and configure radar settings via serial commands.    
+ * @project        : Single Lane Speed Sign Display 
+ * @author         : Atharav Karandikar
+ * @company        : Technido Industrial Engineering LLP
+ * @copyright      : Copyright (c) 2026 Technido Industrial Engineering LLP. All rights reserved.
+ *
+ * This software is the confidential and proprietary information of 
+ * Technido Industrial Engineering LLP. You shall not disclose 
+ * such Confidential Information and shall use it only in accordance with 
+ * the terms of the license agreement you entered into with Technido Industrial Engineering LLP.
+ *
+ * WARRANTY DISCLAIMER:
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ * ARE DISCLAIMED.
+ *
+ * @date           : April 23, 2026
+ ******************************************************************************
+ */
